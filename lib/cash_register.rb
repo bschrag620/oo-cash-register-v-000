@@ -46,5 +46,5 @@ class CashRegister
     last_item = self.list[-1]
     total -= last_item.price
   end
-  
+
 end
