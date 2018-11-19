@@ -5,7 +5,6 @@ class Item
     @name = name
     @price = price
   end
-
 end
 
 
@@ -37,7 +36,7 @@ class CashRegister
   end
 
   def items
-    @@list.collect do | item |
+    self.list.collect do | item |
       item.name
     end
   end
