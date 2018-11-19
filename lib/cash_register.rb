@@ -43,7 +43,7 @@ class CashRegister
   end
 
   def void_last_transaction
-    puts self.list
+    puts "list here: #{self.list}"
     last_item = self.list[-1]
     total -= last_item.price
   end
